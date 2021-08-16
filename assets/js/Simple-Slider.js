@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Read more here: http://idangero.us/swiper/api/
     
     var mySwiper = new Swiper('.swiper-container', {
-        loop: true,
+        loop: false,
         pagination: {
             el: '.swiper-pagination' ,
             clickable: true
@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev'
         }
+        
     });
     
 });
